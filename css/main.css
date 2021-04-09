@@ -1,5 +1,7 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: georgia, serif;
 }
 
 *, *::before, *::after {
@@ -9,17 +11,52 @@ html {
 ol {
   list-style-type: none;
   padding: 0;
+  gap: 1rem;
+  margin: 0;
 
   display: flex;
   flex-wrap: wrap;
 }
 
 ol li {
-  width: 20em;
-  padding: 1rem;
+  width: 30em;
+  padding: .5em .75em .6em;
+  border-radius: 8px;
+  border: solid;
+  border-color: #623b0c;
+  background-color: #ede3db;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 img {
   width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #f5f2f0;
+
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h1 {
+  font-family: "Denk One", sans-serif;
+  color: #623b0c;
+}
+
+h2 {
+  font-family: "Denk One", sans-serif;
+  color: #623b0c;
+}
+
+a {
+  background-color: #623b0c;
+  padding: .5em .75em .6em;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
 }
