@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+ol {
+  list-style-type: none;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ol li {
+  width: 20em;
+  padding: 1rem;
+
+}
+
+img {
+  width: 100%;
+}
